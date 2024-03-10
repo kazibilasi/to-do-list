@@ -66,6 +66,7 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
+    
 }
 
 ul li::before{
@@ -87,11 +88,13 @@ ul li::before{
 }
 
 ul li.checked::before{
+    display: flex;
     background-image: url(images/checked.png);
 
 }
 
 ul li span{
+    
     position: absolute;
     right: 0;
     top: 5px;
